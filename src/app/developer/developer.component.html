@@ -3,7 +3,8 @@
 <h3>Age:{{dev.age}} || Sexe: {{dev.sexe}} </h3>
 <p>{{dev.bio}}</p>
 
-
-<app-skill [skillDev]="skillDev"></app-skill>
+<ng-container *ngFor=" let skill of skillList">
+<app-skill [skillDev]="skill"></app-skill>
+</ng-container>
 
 

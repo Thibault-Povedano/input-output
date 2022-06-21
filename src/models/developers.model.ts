@@ -1,4 +1,4 @@
-import { Skills } from "./skills.model";
+import { Skill } from "./skill.model";
 
 export class Developers{
 constructor(
@@ -7,7 +7,7 @@ constructor(
   public age: number,
   public sexe: string,
   public bio: string,
-  public skills: Skills[],
+  public skills: Skill[],
 ){}
 };
 
