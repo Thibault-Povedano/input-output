@@ -1,0 +1,13 @@
+import { Skills } from "./skills.model";
+
+export class Developers{
+constructor(
+  public lastName: string,
+  public firstName: string,
+  public age: number,
+  public sexe: string,
+  public bio: string,
+  public skills: Skills[],
+){}
+};
+
